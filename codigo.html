@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirTag</title>
+    <style>
+
+header h1{
+    color: orange;
+    display: flex;
+    justify-content: center;
+    
+}
+
+header nav{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 1rem 1.5rem;
+   
+   
+}
+
+.cuadro {
+    background-color: blueviolet;
+    animation-name: mover-fuera;
+    animation-duration: 7s;
+    width: 750px;
+    height: 700px;
+    position: absolute;
+    top: 60px;
+  }   
+  
+  @keyframes mover-fuera{
+    from {left:0%;}
+    to {left:50%;}
+  }
+
+nav ul li{
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    
+    position: relative;
+    top: 100px;
+
+}
+
+nav ul li a{
+    color: black;
+}
+
+div img{
+    height: 100px;
+}
+p{  
+    position: absolute;
+    top: 200px;
+    width: 500px;
+}
+
+h2{
+    position: relative;
+    color: orange;
+    margin-left: 20px;
+    
+}
+
+#llavero{
+    height: 200px;
+    position: absolute;
+    left: 790px;
+    top: 50px
+}
+
+#mochila{
+    height: 100px;
+    position: absolute;
+    left: 1000px;
+    top: 99px
+}
+
+p{
+    max-width: 700px;
+}
+
+#iphone{
+    height: 400px;
+    position: absolute;
+    left: 900px;
+    top: 850px;
+}
+
+
+
+#navfunciona{
+    position: absolute;
+    top: 600px;
+}
+
+#navquees{
+    position: absolute;
+    top: 80px;
+}
+
+#navej{
+    position: absolute;
+    top: 450px;
+}
+
+#ista{
+    position: relative;
+    top: 0px;
+}
+
+li{
+    
+    padding: 0.5rem;
+   
+}
+
+#ej{
+    position: relative;
+    top: 0%;
+    width: 100%;
+    margin-left: 20px;
+}
+
+#iphone2{
+    position: absolute;
+    height: 400px;
+    left: 760px;
+    top: 1200px;
+}
+
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AirTag</h1> 
+        <img class="cuadro" src="./Imagenes/airtag.jpg" alt="">
+    </header>
+    <section>
+        <h2>Qué es?</h2>
+        <img id="iphone" src="./Imagenes/Captura de pantalla 2022-11-14 a las 16.40.29.png" alt="">
+        <p id="ej">El airtag es un dispositivo de apple lanzado en abirl del 2021,su principal caracteristica es que es un 
+            localizador que funciona mediante bluetooth. Su principal uso es el uso cotidiano, colocar un airtag en el 
+            llavero de las llaves de casa o en el llavero de las llaves del coche para no perderlas, en la cartera o 
+            en cualquier sitio con la finalidad de tenerlo localizado.
+        </p>
+    </section>
+    <section>
+        <h2>Cómo funciona?</h2>
+        <img id="iphone2" src="./Imagenes/comfunciona.webp" alt="">
+        <h3>De Oído</h2>
+        <p id="ej">Si el usuario ha perdido el objeto en el cual se ha colocado el airtag, este mismo no tiene 
+            porque buscarse mediante el localizador integrado, también puede ser localizado mediante el oido
+               ya que cada Airtag lleva un altavoz incorporado. Mediante la aplicación de buscar del Iphone o 
+               mediante el uso del asistente siri, el Airtag puede ser localizado de manera sencilla.</p>
+
+
+        <h3>Busqueda de Precisión</h2>
+
+        <p id="ej"> Gracias a la tecnología de banda ancha,cuando el airtag del usuario este lo suficientemente cerca, este podrá ser 
+            localizado de manera muy precisa. Gracias a la busqueda de precisión se sabrá la posición y la distancia exacta.</p>
+
+
+        <h3>En caso de perdida lejana.</h2>
+
+        <p id="ej">   Si el dispositivo se ha perdido en un lugar remoto , esto no supondria un problema debido a que se ha habilitado una 
+            "Legión de ayudantes" a la red Buscar,es decir, la información saltaria desde todos los dispositivos apple, como los iphone,
+            Ipad y Mac repartidos por el mundo.</p>
+
+        <p id="ej">El primer problema que llega a la cabeza de los usuarios al escuhar esta propuesta es si sus datos están seguros, ya que, 
+            de cierta manera saltan entre dispositivos hasta encontrar su AirTag, pero , los datos que se envían están cifrados 
+            y son anonimos de manera que es imposible acceder a ellos, para tranquilidad del usuario.
+
+            Apple ha anunciado, que ni ellos disponen de los datos del airtag ni de su localizacion , ni si quiera,
+            de los dispositvos que se han utlizado para encontralo.
+        </p>
+
+        <h3>Como funciona?</h2>
+        <p id="ej">El AirTag manda una señal por Bluetooth, que va siendo detectada por los dispositivos cercanos, la 
+            señal va saltando hasta encontrarlo, en ese momento, la ubicación se envía a iCLoud y el usuario 
+            puede ver la posición exacta en un mapa mediante la app Buscar.</p>
+        
+    </section>
+
+    <section>
+        <h2>Ejemplos de uso</h3>
+        <ol>
+            <li id="lista">Llaves de casa:
+    
+               <p id="ej">Apple proporciona llaveros q disponen de un 
+                hueco hecho a medida
+                para que se coloque el AirTag en el interior.</p> 
+            </li>
+               
+               
+
+    
+            <li id="lista">Mochila : </li>
+    
+               <p id="ej">El mismo llavero del que se habló en el apartado anterior
+                se puede colgar de una mochila o introducir en el interior.</p> 
+            
+    
+            <li id="lista">Maleta de viaje: 
+    
+               <p id="ej">Esta opción es una elección muy original, ya que, muchas maletas
+                se pierden cuando se facturan y, en ciertos casos, las compañias
+                tardan mucho tiempo en encontralas, si se ha colocado previamente un AirTag en su 
+                interior, el dueño del equipaje sera capaz de encontrala antes que la propia 
+                compañia.</p> 
+            </li>
+    
+            <li id="lista">Mando de televisión: 
+    
+               <p id="ej">En el caso de que en el domicilio haya personas mayores o simplemente personas
+                despistadas que suelen perder el mando a menudo, esta es una muy buena opción.
+                </p> 
+            </li>
+        </ol>
+    </section>
+
+
+    <main>
+
+    </main>
+
+    
+</body>
+</html>
